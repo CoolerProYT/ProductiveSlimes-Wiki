@@ -13,7 +13,7 @@
 
 <script>
 import * as d3 from 'd3';
-import SolidingGui from "@/components/SolidingGui.vue";
+import SolidingGui from "@/components/templates/SolidingGui.vue";
 
 export default {
     data() {

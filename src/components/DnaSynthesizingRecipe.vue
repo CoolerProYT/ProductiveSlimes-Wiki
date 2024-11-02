@@ -17,8 +17,8 @@
 
 <script>
 import * as d3 from 'd3';
-import DnaExtractingGui from "@/components/DnaExtractingGui.vue";
-import DnaSynthesizingGui from "@/components/DnaSynthesizingGui.vue";
+import DnaExtractingGui from "@/components/templates/DnaExtractingGui.vue";
+import DnaSynthesizingGui from "@/components/templates/DnaSynthesizingGui.vue";
 
 export default {
     data() {

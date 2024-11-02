@@ -1,11 +1,11 @@
 <template>
     <NavBar />
 
-    <div class="w-10/12 mx-auto py-6 flex">
+    <div class="w-10/12 mx-auto py-6 flex justify-between">
         <div class="w-2/12">
             <SideBar />
         </div>
-        <div class="w-10/12 py-3 px-8">
+        <div class="w-10/12 ms-2 py-5 px-8 dark:bg-gray-700 rounded shadow dark:shadow-gray-950">
             <router-view></router-view>
         </div>
     </div>

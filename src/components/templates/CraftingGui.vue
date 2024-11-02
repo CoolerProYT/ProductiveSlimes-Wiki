@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import CraftingTableSlot from "@/components/CraftingTableSlot.vue";
+import CraftingTableSlot from "@/components/templates/CraftingTableSlot.vue";
 
 export default {
     components: {CraftingTableSlot},

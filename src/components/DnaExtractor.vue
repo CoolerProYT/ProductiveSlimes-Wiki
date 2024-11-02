@@ -2,38 +2,44 @@
     <div class="flex">
         <div class="w-10/12 pe-5">
             <div>
-                <h1 class="text-4xl font-bold">Cable</h1>
+                <h1 class="text-4xl font-bold">DNA Extractor</h1>
                 <p>
-                    Cable is a block that can transfer energy from energy generator to other blocks that cab receive energy.
+                    DNA Extractor is a machine that can extract DNA from slimeballs.
                 </p>
             </div>
 
             <div class="mt-5">
                 <h1 class="text-3xl font-bold">Obtaining</h1>
                 <CraftingGui
-                    :slot_1="''"
-                    :slot_2="'minecraft:redstone'"
-                    :slot_3="''"
-                    :slot_4="'minecraft:redstone'"
-                    :slot_5="'minecraft:copper_ingot'"
-                    :slot_6="'minecraft:redstone'"
-                    :slot_7="''"
-                    :slot_8="'minecraft:redstone'"
-                    :slot_9="''"
-                    :output="'mod:cable'"
-                    :output_count="8"
+                    :slot_1="'minecraft:iron_ingot'"
+                    :slot_2="'minecraft:iron_ingot'"
+                    :slot_3="'minecraft:iron_ingot'"
+                    :slot_4="'minecraft:iron_ingot'"
+                    :slot_5="'minecraft:glass'"
+                    :slot_6="'minecraft:iron_ingot'"
+                    :slot_7="'minecraft:iron_ingot'"
+                    :slot_8="'mod:energy_slimeball'"
+                    :slot_9="'minecraft:iron_ingot'"
+                    :output="'mod:dna_extractor'"
+                    :output_count="1"
                 />
             </div>
 
             <div class="mt-5">
                 <h1 class="text-3xl font-bold">Usage</h1>
                 <p>
-                    Cable can transfer energy from energy generator to other blocks that can receive energy.
+                    DNA Extractor can extract DNA from slimeballs.
+                </p>
+                <p>
+                    For recipes, please refer to the <router-link to="/DnaExtractingRecipe" class="text-blue-600">DNA Extracting Recipe</router-link> page.
+                </p>
+                <p class="mt-3 text-red-500">
+                    Note: This machine also require energy(400FE) to operate.
                 </p>
             </div>
         </div>
         <div class="w-2/12">
-            <img :src="'img/cable.png'" class="bg-gray-500 p-3 rounded">
+            <img :src="'img/dna_extractor.png'" class="bg-gray-500 p-3 rounded">
         </div>
     </div>
 </template>

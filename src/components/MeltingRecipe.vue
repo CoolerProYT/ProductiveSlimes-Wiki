@@ -13,7 +13,7 @@
 
 <script>
 import * as d3 from 'd3';
-import MeltingGui from "@/components/MeltingGui.vue";
+import MeltingGui from "@/components/templates/MeltingGui.vue";
 
 export default {
     data() {

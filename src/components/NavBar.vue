@@ -4,7 +4,7 @@
             <div>
                 <span class="text-lg font-bold">Productive Slimes Wiki</span>
             </div>
-
+            <span class="text-red-500">This website is under development, light mode and mobile view is not ready.</span>
             <div class="items-center flex">
                 <label class="theme-switch">
                     <input type="checkbox" class="theme-switch__checkbox" @click="toggleTheme" :checked="theme === 'dark'" >
