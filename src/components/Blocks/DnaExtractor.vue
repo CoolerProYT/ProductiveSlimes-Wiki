@@ -1,15 +1,18 @@
 <template>
-    <div class="flex">
-        <div class="w-10/12 pe-5">
+    <div class="md:flex flex-row-reverse">
+        <div class="md:w-2/12">
+            <img :src="'img/dna_extractor.png'" class="bg-gray-50 dark:bg-gray-500 p-3 rounded">
+        </div>
+        <div class="md:w-10/12 md:pe-5">
             <div>
-                <h1 class="text-4xl font-bold">DNA Extractor</h1>
-                <p>
+                <h1 class="text-2xl md:text-4xl font-bold">DNA Extractor</h1>
+                <p class="text-justify">
                     DNA Extractor is a machine that can extract DNA from slimeballs.
                 </p>
             </div>
 
             <div class="mt-5">
-                <h1 class="text-3xl font-bold">Obtaining</h1>
+                <h1 class="text-xl md:text-3xl font-bold">Obtaining</h1>
                 <CraftingGui
                     :slot_1="'minecraft:iron_ingot'"
                     :slot_2="'minecraft:iron_ingot'"
@@ -26,20 +29,17 @@
             </div>
 
             <div class="mt-5">
-                <h1 class="text-3xl font-bold">Usage</h1>
-                <p>
+                <h1 class="text-xl md:text-3xl font-bold">Usage</h1>
+                <p class="text-justify">
                     DNA Extractor can extract DNA from slimeballs.
                 </p>
-                <p>
+                <p class="text-justify">
                     For recipes, please refer to the <router-link to="/DnaExtractingRecipe" class="text-blue-600">DNA Extracting Recipe</router-link> page.
                 </p>
                 <p class="mt-3 text-red-500">
-                    Note: This machine also require energy(400FE) to operate.
+                    Note: This machine also require energy (400FE) to operate.
                 </p>
             </div>
-        </div>
-        <div class="w-2/12">
-            <img :src="'img/dna_extractor.png'" class="bg-gray-500 p-3 rounded">
         </div>
     </div>
 </template>

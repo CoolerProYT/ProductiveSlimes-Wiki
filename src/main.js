@@ -5,19 +5,19 @@ import './assets/index.css'
 
 import App from './App.vue'
 import Home from './components/Home.vue'
-import MeltingRecipe from './components/MeltingRecipe.vue'
-import SolidingRecipe from "@/components/SolidingRecipe.vue";
-import DnaExtractingRecipe from "@/components/DnaExtractingRecipe.vue";
-import DnaSynthesizingRecipe from "@/components/DnaSynthesizingRecipe.vue";
-import MeltingStation from "@/components/MeltingStation.vue";
-import SolidingStation from "@/components/SolidingStation.vue";
-import EnergySlimeSpawnEgg from "@/components/EnergySlimeSpawnEgg.vue";
-import EnergyGenerator from "@/components/EnergyGenerator.vue";
-import Cable from "@/components/Cable.vue";
-import DnaExtractor from "@/components/DnaExtractor.vue";
-import DnaSynthesizer from "@/components/DnaSynthesizer.vue";
-import EnergyMultiplierUpgrade from "@/components/EnergyMultiplierUpgrade.vue";
-import Guidebook from "@/components/Guidebook.vue";
+import MeltingRecipe from './components/RecipeType/MeltingRecipe.vue'
+import SolidingRecipe from "@/components/RecipeType/SolidingRecipe.vue";
+import DnaExtractingRecipe from "@/components/RecipeType/DnaExtractingRecipe.vue";
+import DnaSynthesizingRecipe from "@/components/RecipeType/DnaSynthesizingRecipe.vue";
+import MeltingStation from "@/components/Blocks/MeltingStation.vue";
+import SolidingStation from "@/components/Blocks/SolidingStation.vue";
+import EnergySlimeSpawnEgg from "@/components/Items/EnergySlimeSpawnEgg.vue";
+import EnergyGenerator from "@/components/Blocks/EnergyGenerator.vue";
+import Cable from "@/components/Blocks/Cable.vue";
+import DnaExtractor from "@/components/Blocks/DnaExtractor.vue";
+import DnaSynthesizer from "@/components/Blocks/DnaSynthesizer.vue";
+import EnergyMultiplierUpgrade from "@/components/Items/EnergyMultiplierUpgrade.vue";
+import Guidebook from "@/components/Items/Guidebook.vue";
 
 const routes = [
     { path: '/Home', component: Home },

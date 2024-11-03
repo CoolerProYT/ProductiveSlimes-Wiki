@@ -1,15 +1,18 @@
 <template>
-    <div class="flex">
-        <div class="w-10/12 pe-5">
+    <div  class="md:flex flex-row-reverse">
+        <div class="md:w-2/12">
+            <img :src="'img/energy_generator.png'" class="bg-gray-50 dark:bg-gray-500 p-3 rounded">
+        </div>
+        <div class="md:w-10/12 md:pe-5">
             <div>
-                <h1 class="text-4xl font-bold">Energy Generator</h1>
-                <p>
+                <h1 class="text-2xl md:text-4xl font-bold">Energy Generator</h1>
+                <p class="text-justify">
                     Energy Generator is a machine that can generate energy from energy slimeball.
                 </p>
             </div>
 
             <div class="mt-5">
-                <h1 class="text-3xl font-bold">Obtaining</h1>
+                <h1 class="text-xl md:text-3xl font-bold">Obtaining</h1>
                 <CraftingGui
                     :slot_1="'minecraft:redstone'"
                     :slot_2="'mod:energy_slimeball'"
@@ -26,17 +29,14 @@
             </div>
 
             <div class="mt-5">
-                <h1 class="text-3xl font-bold">Usage</h1>
-                <p>
+                <h1 class="text-xl md:text-3xl font-bold">Usage</h1>
+                <p class="text-justify">
                     Energy Generator can generate energy from energy slimeball or energy slime block.
                 </p>
-                <p>
+                <p class="text-justify">
                     Energy multiplier upgrade can increase the energy output.
                 </p>
             </div>
-        </div>
-        <div class="w-2/12">
-            <img :src="'img/energy_generator.png'" class="bg-gray-500 p-3 rounded">
         </div>
     </div>
 </template>

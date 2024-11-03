@@ -27,7 +27,7 @@
 
                     <!-- Arrow -->
                     <div class="relative">
-                        <svg width="85" height="45" viewBox="0 0 85 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="hidden md:block" width="85" height="45" viewBox="0 0 85 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="15" width="60" height="15" fill="#8b8b8b"/>
                             <rect x="60" width="5" height="45" fill="#8b8b8b"/>
                             <rect x="70" y="10" width="5" height="25" fill="#8b8b8b"/>
@@ -35,7 +35,14 @@
                             <rect x="80" y="20" width="5" height="5" fill="#8b8b8b"/>
                             <rect x="65" y="5" width="5" height="35" fill="#8b8b8b"/>
                         </svg>
-
+                        <svg class="md:hidden" width="40" height="45" viewBox="0 0 85 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="15" width="60" height="15" fill="#8b8b8b"/>
+                            <rect x="60" width="5" height="45" fill="#8b8b8b"/>
+                            <rect x="70" y="10" width="5" height="25" fill="#8b8b8b"/>
+                            <rect x="75" y="15" width="5" height="15" fill="#8b8b8b"/>
+                            <rect x="80" y="20" width="5" height="5" fill="#8b8b8b"/>
+                            <rect x="65" y="5" width="5" height="35" fill="#8b8b8b"/>
+                        </svg>
                     </div>
 
                     <CraftingTableSlot :item="output" :output_count="output_count" />

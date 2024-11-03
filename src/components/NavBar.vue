@@ -1,10 +1,10 @@
 <template>
-    <nav class="bg-white dark:bg-gray-900 flex h-14 sticky top-0 px-10 border-b border-gray-200 dark:border-gray-800 z-50">
+    <nav class="bg-white dark:bg-gray-900 flex h-14 sticky top-0 px-5 md:px-10 border-b border-gray-200 dark:border-gray-800 z-50">
         <div class="flex items-center w-full justify-between lg:px-0">
             <div>
                 <span class="text-lg font-bold">Productive Slimes Wiki</span>
             </div>
-            <span class="text-red-500">This website is under development, light mode and mobile view is not ready.</span>
+
             <div class="items-center flex">
                 <label class="theme-switch">
                     <input type="checkbox" class="theme-switch__checkbox" @click="toggleTheme" :checked="theme === 'dark'" >
@@ -54,9 +54,6 @@ export default {
             eventBus.emit('themeChanged', this.theme);
             console.log(this.theme)
         },
-        toggleMenu(){
-            $('#mobileNav').slideToggle();
-        }
     },
 };
 </script>

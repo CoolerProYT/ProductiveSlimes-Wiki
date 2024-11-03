@@ -1,15 +1,18 @@
 <template>
-    <div class="flex">
-        <div class="w-10/12 pe-5">
+    <div class="md:flex flex-row-reverse">
+        <div class="md:w-2/12">
+            <img :src="'img/Energy_Slime_Spawn_Egg.png'" class="bg-gray-50 dark:bg-gray-500 p-3 rounded w-full md:w-auto">
+        </div>
+        <div class="md:w-10/12 md:pe-5">
             <div>
-                <h1 class="text-4xl font-bold">Energy Slime Spawn Egg</h1>
-                <p>
+                <h1 class="text-2xl md:text-4xl font-bold">Energy Slime Spawn Egg</h1>
+                <p class="text-justify">
                     Energy Slime Spawn Egg is an item added by the mod. It is used to spawn Energy Slime.
                 </p>
             </div>
 
             <div class="mt-5">
-                <h1 class="text-3xl font-bold">Obtaining</h1>
+                <h1 class="text-xl md:text-3xl font-bold">Obtaining</h1>
                 <CraftingGui
                     :slot_1="'minecraft:redstone'"
                     :slot_2="'minecraft:slime_ball'"
@@ -26,20 +29,17 @@
             </div>
 
             <div class="mt-5">
-                <h1 class="text-3xl font-bold">Usage</h1>
-                <p>
+                <h1 class="text-xl md:text-3xl font-bold">Usage</h1>
+                <p class="text-justify">
                     Right-clicking on the ground with Energy Slime Spawn Egg will spawn Energy Slime.
                 </p>
-                <p>
+                <p class="text-justify">
                     Energy Slime will <b>drop energy slimeballs every 2000 ticks</b>.
                 </p>
                 <p class="mt-3">
                     Slime ball drop amount is affected by size of Energy Slime.
                 </p>
             </div>
-        </div>
-        <div class="w-2/12">
-            <img :src="'img/Energy_Slime_Spawn_Egg.png'" class="bg-gray-500 p-3 rounded">
         </div>
     </div>
 </template>

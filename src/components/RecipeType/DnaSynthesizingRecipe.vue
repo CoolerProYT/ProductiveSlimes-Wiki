@@ -1,5 +1,5 @@
 <template>
-    <input type="text" v-model="search" class="bg-gray-700 p-3" placeholder="Search...">
+    <input type="text" v-model="search" class="bg-gray-50 dark:bg-gray-600 w-full p-3" placeholder="Search...">
     <div v-for="recipe in data">
         <DnaSynthesizingGui
             :input_item="recipe.input_item"

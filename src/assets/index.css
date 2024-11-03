@@ -2,6 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Minecraft';
+    src: url('@/assets/minecraft.otf') format('truetype');
+}
 *{
     font-family: Arial;
+}
+.minecraft-font {
+    font-family: 'Minecraft';
+    color: #fff;
+}
+.tint-slimeball{
+    mask: url("@/assets/img/template_slimeball.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mix-blend-mode: multiply;
+}
+.tint-slimeblock{
+    mask: url("@/assets/img/template_slime_block.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mix-blend-mode: multiply;
+}
+.tint-dna{
+    mask: url("@/assets/img/template_dna.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mix-blend-mode: multiply;
+}
+.tint-egg-bg{
+    mask: url("@/assets/img/template_spawn_egg_bg.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mix-blend-mode: multiply;
+}
+.tint-egg-hl{
+    mask: url("@/assets/img/template_spawn_egg_hl.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mix-blend-mode: multiply;
+}
+.tint-fluid {
+    mask: url("@/assets/img/bucket_fluid.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mix-blend-mode: multiply;
+}
+.tooltip {
+    position: absolute;
+    bottom: 100%; /* Position above the element */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.5rem; /* Space between the tooltip and element */
+    background-color: #4A5568; /* Dark gray */
+    color: white;
+    font-size: 0.75rem; /* Smaller font size */
+    padding: 0.25rem 0.5rem; /* Padding */
+    border-radius: 0.25rem; /* Rounded corners */
+    white-space: nowrap; /* Prevent text wrapping */
+    z-index: 10; /* Ensure it appears above other elements */
 }
