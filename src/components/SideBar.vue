@@ -29,6 +29,14 @@
                 </li>
             </ul>
 
+            <p id="entityToggle" class="cursor-pointer font-bold"
+               :class="{'text-blue-600': items.includes($route.path),'dark:text-gray-100 dark:hover:text-gray-400': !items.includes($route.path)}">Entities</p>
+            <ul id="entity" :style="{display: items.includes($route.path) ? 'block' : 'none'}" class="ms-2">
+                <li>
+                    <NavLink path="/Slime" text="Slimes" />
+                </li>
+            </ul>
+
             <p id="itemToggle" class="cursor-pointer font-bold"
                :class="{'text-blue-600': items.includes($route.path),'dark:text-gray-100 dark:hover:text-gray-400': !items.includes($route.path)}">Items</p>
             <ul id="item" :style="{display: items.includes($route.path) ? 'block' : 'none'}" class="ms-2">
@@ -111,6 +119,9 @@ export default {
         });
         $("#itemToggle").click(function() {
             $("#item").slideToggle();
+        });
+        $("#entityToggle").click(function() {
+            $("#entity").slideToggle();
         });
     }
 }

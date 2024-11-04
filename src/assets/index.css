@@ -49,6 +49,12 @@
     mask-size: cover;
     mix-blend-mode: multiply;
 }
+.tint-slime {
+    mask: url("@/assets/img/template_slime.png");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mix-blend-mode: multiply;
+}
 .tooltip {
     position: absolute;
     bottom: 100%; /* Position above the element */
@@ -62,7 +68,4 @@
     border-radius: 0.25rem; /* Rounded corners */
     white-space: nowrap; /* Prevent text wrapping */
     z-index: 10; /* Ensure it appears above other elements */
-}
-img{
-    image-rendering: pixelated;
 }

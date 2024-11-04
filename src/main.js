@@ -18,6 +18,7 @@ import DnaExtractor from "@/components/Blocks/DnaExtractor.vue";
 import DnaSynthesizer from "@/components/Blocks/DnaSynthesizer.vue";
 import EnergyMultiplierUpgrade from "@/components/Items/EnergyMultiplierUpgrade.vue";
 import Guidebook from "@/components/Items/Guidebook.vue";
+import Slime from "@/components/Entities/Slime.vue";
 
 const routes = [
     { path: '/Home', component: Home },
@@ -34,6 +35,7 @@ const routes = [
     { path: '/DnaSynthesizer', component: DnaSynthesizer },
     { path: '/EnergyMultiplierUpgrade', component: EnergyMultiplierUpgrade },
     { path: '/Guidebook', component: Guidebook },
+    { path: '/Slime', component: Slime },
     { path: '/:pathMatch(.*)*', redirect: '/Home' },
 ];
 
