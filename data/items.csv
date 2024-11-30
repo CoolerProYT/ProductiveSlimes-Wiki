@@ -41,6 +41,7 @@ cactus_slimeball,#476d21
 coal_slimeball,#3b3d3b
 gravel_slimeball,#4a444b
 energy_slimeball,#FFFF70
+oak_leaves_slimeball,#48b518
 slime_dna,#7BC35C
 dirt_slime_dna,#866043
 stone_slime_dna,#6F6969
@@ -83,3 +84,4 @@ red_mushroom_slime_dna,#c02624
 cactus_slime_dna,#476d21
 coal_slime_dna,#3b3d3b
 gravel_slime_dna,#4a444b
+oak_leaves_slime_dna,#48b518
