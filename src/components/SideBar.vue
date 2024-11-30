@@ -22,12 +22,19 @@
                     <NavLink path="/EnergyGenerator" text="Energy Generator" />
                 </li>
                 <li>
+                    <NavLink path="/FluidTank" text="Fluid Tank" />
+                </li>
+                <li>
                     <NavLink path="/MeltingStation" text="Melting Station" />
                 </li>
                 <li>
                     <NavLink path="/SolidingStation" text="Soliding Station" />
                 </li>
             </ul>
+
+            <li>
+                <NavLink path="/Config" text="Config" class="font-bold" />
+            </li>
 
             <p id="entityToggle" class="cursor-pointer font-bold"
                :class="{'text-blue-600': items.includes($route.path),'dark:text-gray-100 dark:hover:text-gray-400': !items.includes($route.path)}">Entities</p>
@@ -67,6 +74,14 @@
                     <NavLink path="/SolidingRecipe" text="Soliding Recipe" />
                 </li>
             </ul>
+
+            <p id="villagerToggle" class="cursor-pointer font-bold"
+               :class="{'text-blue-600': villagers.includes($route.path),'dark:text-gray-100 dark:hover:text-gray-400': !villagers.includes($route.path)}">Villagers</p>
+            <ul id="villager" :style="{display: villagers.includes($route.path) ? 'block' : 'none'}" class="ms-2">
+                <li>
+                    <NavLink path="/Scientist" text="Scientist" />
+                </li>
+            </ul>
         </ul>
     </div>
 </template>
@@ -83,6 +98,7 @@ export default {
         return {
             blocks: ['/MeltingStation', '/SolidingStation', '/EnergyGenerator', '/Cable', '/DnaExtractor', '/DnaSynthesizer'],
             items: ['/EnergySlimeSpawnEgg', '/EnergyMultiplierUpgrade', '/Guidebook'],
+            villagers: ['/Scientist'],
             size: 0
         };
     },
@@ -122,6 +138,9 @@ export default {
         });
         $("#entityToggle").click(function() {
             $("#entity").slideToggle();
+        });
+        $("#villagerToggle").click(function() {
+            $("#villager").slideToggle();
         });
     }
 }

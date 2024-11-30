@@ -44,12 +44,9 @@
             <div v-if="item.includes('_slime_spawn_egg')" class="absolute inset-0 tint-egg-hl" :style="{backgroundColor: hl}"></div>
 
             <div v-if="item.includes('_bucket') && item.includes('molten_')" class="absolute inset-0 tint-fluid top-1" :style="{backgroundColor: color}"></div>
-            <div v-if="item.includes('_bucket') && item.includes('molten_')" class="absolute inset-x-6 inset-y-3 xs:inset-x-8 xs:inset-y-5 md:inset-x-10 md:inset-y-7">
-                <p class="text-xl xs:text-2xl md:text-4xl minecraft-font">{{ output_count }}</p>
-            </div>
 
             <!-- Output Count -->
-            <div v-if="output_count != null" class="absolute inset-x-6 inset-y-3 xs:inset-x-8 xs:inset-y-5 md:inset-x-10 md:inset-y-7">
+            <div v-if="output_count != null" class="absolute inset-y-3 xs:inset-y-5 md:inset-y-7" :class="output_count > 9 ? 'inset-x-3 xs:inset-x-4 md:inset-x-4' : 'inset-x-6 xs:inset-x-8 md:inset-x-10'">
                 <p class="text-xl xs:text-2xl md:text-4xl minecraft-font">{{ output_count }}</p>
             </div>
 

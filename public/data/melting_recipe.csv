@@ -81,3 +81,5 @@ coal_slime_block,molten_coal_bucket,2,5
 coal_slimeball,molten_coal_bucket,4,1
 gravel_slime_block,molten_gravel_bucket,2,5
 gravel_slimeball,molten_gravel_bucket,4,1
+oak_leaves_slime_block,molten_oak_leaves_bucket,2,5
+oak_leaves_slimeball,molten_oak_leaves_bucket,4,1
