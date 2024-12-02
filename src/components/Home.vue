@@ -35,8 +35,25 @@
             <div class="mt-5">
                 <h1 class="text-xl md:text-3xl font-bold">Change Log</h1>
                 <ul class="list-disc ms-4">
-                    <li class="font-bold text-xl">1.21.3</li>
+                    <li class="font-bold text-xl">1.21.4</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1214">+</span></li>
+                        <ul id="v121-1214-log" style="display: none">
+                            <li>- Initial port to 1.21.4</li>
+                        </ul>
+                    </ul>
+
+                    <li class="font-bold text-xl mt-3 py-3 border-t">1.21.3</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1213">+</span></li>
+                        <ul id="v121-1213-log" style="display: none">
+                            <li>- Added REI compat</li>
+                            <li>- Added Fluid Tank crafting recipe</li>
+                            <li>- Added Guidebook and Energy Multiplier Upgrade to Creative Tab</li>
+                            <li>- Removed Lake Placed Feature in Slime Land to avoid crash on chunk loading</li>
+                            <li>- Fixed custom variants recipe, tags not working</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.2.0 <span class="cursor-pointer select-none" id="v120-1213">+</span></li>
                         <ul id="v120-1213-log" style="display: none">
                             <li>- Added Fluid Tank, Slimy Grass Block, Slimy Dirt, Oak Leaves Slime, Slimy Stone, Slimy Deepslate</li>
@@ -63,6 +80,14 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.21.1</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1211">+</span></li>
+                        <ul id="v121-1211-log" style="display: none">
+                            <li>- Added REI compat</li>
+                            <li>- Added Guidebook and Energy Multiplier Upgrade to Creative Tab</li>
+                            <li>- Removed Lake Placed Feature in Slime Land to avoid crash on chunk loading</li>
+                            <li>- Fixed custom variants recipe, tags not working</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.2.0 <span class="cursor-pointer select-none" id="v120-1211">+</span></li>
                         <ul id="v120-1211-log" style="display: none">
                             <li>- Added Fluid Tank, Slimy Grass Block, Slimy Dirt, Oak Leaves Slime, Slimy Stone, Slimy Deepslate</li>

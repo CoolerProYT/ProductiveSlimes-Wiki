@@ -14,18 +14,18 @@
             <div class="mt-5">
                 <h1 class="text-xl md:text-3xl font-bold">Obtaining</h1>
                 <p>
-                    <span class="text-red-500">Recipe unavailable in 1.2.0 (Will be fixed in 1.2.1)</span>
+                    <span class="text-red-500">Recipe missing in 1.2.0-1.21.3 (Will be fixed in 1.2.1-1.21.3)</span>
                 </p>
                 <CraftingGui
-                    :slot_1="''"
-                    :slot_2="''"
-                    :slot_3="''"
-                    :slot_4="''"
-                    :slot_5="''"
-                    :slot_6="''"
-                    :slot_7="''"
-                    :slot_8="''"
-                    :slot_9="''"
+                    :slot_1="'minecraft:iron_ingot'"
+                    :slot_2="'minecraft:iron_ingot'"
+                    :slot_3="'minecraft:iron_ingot'"
+                    :slot_4="'minecraft:glass'"
+                    :slot_5="'minecraft:bucket'"
+                    :slot_6="'minecraft:glass'"
+                    :slot_7="'minecraft:iron_ingot'"
+                    :slot_8="'minecraft:iron_ingot'"
+                    :slot_9="'minecraft:iron_ingot'"
                     :output="'mod:fluid_tank'"
                     :output_count="1"
                 />
