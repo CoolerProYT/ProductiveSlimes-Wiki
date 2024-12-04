@@ -29,6 +29,7 @@
                 <ul class="list-disc ms-4">
                     <li>1.21.1</li>
                     <li>1.21.3</li>
+                    <li>1.21.4</li>
                 </ul>
             </div>
 
@@ -39,7 +40,14 @@
                     <ul class="ps-3" style="list-style-type: square">
                         <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1214">+</span></li>
                         <ul id="v121-1214-log" style="display: none">
-                            <li>- Initial port to 1.21.4</li>
+                            <li>- Added back Jade and Terrablender</li>
+                            <li>- Added REI</li>
+                        </ul>
+
+                        <li class="font-bold text-lg">v1.2.0 <span class="cursor-pointer select-none" id="v120-1214">+</span></li>
+                        <ul id="v120-1214-log" style="display: none">
+                            <li>- Port to 1.21.4</li>
+                            <li>- Waiting for Jade and Terrablender to be updated, once they updated the plugin will be added back in next version.</li>
                         </ul>
                     </ul>
 
