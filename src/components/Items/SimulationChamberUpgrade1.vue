@@ -1,32 +1,29 @@
 <template>
     <div class="md:flex flex-row-reverse">
         <div class="md:w-2/12">
-            <img :src="'img/guidebook.png'" class="bg-gray-50 dark:bg-gray-500 p-3 rounded">
+            <img :src="'img/simulation_chamber_speed_upgrade_1.png'" class="bg-gray-50 dark:bg-gray-500 p-3 rounded">
         </div>
         <div class="md:w-10/12 md:pe-5">
             <div>
-                <h1 class="text-2xl md:text-4xl font-bold">Guidebook</h1>
+                <h1 class="text-2xl md:text-4xl font-bold">Simulation Chamber Speed Upgrade 1</h1>
                 <p class="text-justify">
-                    The Guidebook above v1.2.1 is outdated. Please refer to this wiki for the latest information.
-                    There is currently no plan to update the Guidebook.
+                    Simulation Chamber Speed Upgrade 1 is an upgrade for the <router-link to="/SlimeSimulationChamber" class="text-blue-600">Slime Simulation Chamber</router-link> which can increase the speed of the simulation process.
                 </p>
             </div>
 
             <div class="mt-5">
                 <h1 class="text-xl md:text-3xl font-bold">Obtaining</h1>
-                <p class="text-justify">It can accept any variant of slimeballs.</p>
-                <p class="text-justify">It is a shapeless recipe.</p>
                 <CraftingGui
-                    :slot_1="'minecraft:slime_ball'"
-                    :slot_2="'minecraft:book'"
-                    :slot_3="''"
-                    :slot_4="''"
-                    :slot_5="''"
-                    :slot_6="''"
-                    :slot_7="''"
-                    :slot_8="''"
-                    :slot_9="''"
-                    :output="'mod:guidebook'"
+                    :slot_1="'minecraft:redstone_block'"
+                    :slot_2="'mod:iron_slime_block'"
+                    :slot_3="'minecraft:redstone_block'"
+                    :slot_4="'mod:iron_slime_block'"
+                    :slot_5="'minecraft:iron_ingot'"
+                    :slot_6="'mod:iron_slime_block'"
+                    :slot_7="'minecraft:redstone_block'"
+                    :slot_8="'mod:iron_slime_block'"
+                    :slot_9="'minecraft:redstone_block'"
+                    :output="'mod:simulation_chamber_speed_upgrade_1'"
                     :output_count="1"
                 />
             </div>
@@ -34,7 +31,10 @@
             <div class="mt-5">
                 <h1 class="text-xl md:text-3xl font-bold">Usage</h1>
                 <p class="text-justify">
-                    Right-click to open the guidebook.
+                    Use the upgrade in the <router-link to="/SlimeSimulationChamber" class="text-blue-600">Slime Simulation Chamber</router-link> to increase the speed of the simulation process.
+                </p>
+                <p class="text-justify">
+                    It increase the process by 1.5x.
                 </p>
             </div>
         </div>

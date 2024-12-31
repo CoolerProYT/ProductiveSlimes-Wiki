@@ -7,7 +7,7 @@
             <div>
                 <h1 class="text-2xl md:text-4xl font-bold">Scientist</h1>
                 <p class="text-justify">
-                    The scientist is a new profession that added in the mod. The block of the scientist is the DNA Extractor. There is a chance to spawn in Slime Land Biome Village.
+                    The scientist is a new profession that added in the mod. The block of the scientist is the DNA Extractor. There is a chance to spawn in Slimy Land Biome Village.
                 </p>
             </div>
 
@@ -15,17 +15,17 @@
                 <h1 class="text-xl md:text-3xl font-bold">Trading</h1>
                 <table class="w-full my-5">
                     <thead>
-                    <tr class="bg-gray-500">
+                    <tr class="bg-gray-50 dark:bg-gray-500">
                         <th class="border border-gray-200">Level</th>
                         <th class="border border-gray-200">Item Wanted (Default Quantity)</th>
                         <th class="border border-gray-200">Price Multiplier</th>
                         <th class="border border-gray-200">Item Given</th>
                         <th class="border border-gray-200">Trades until disabled</th>
-                        <th class="border border-gray-200">XP to villager</th>
+                        <th class="border border-gray-200">Experience</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <td class="border border-gray-200" rowspan="4">Novice</td>
                         <VillagerTrade
                             :tier="'Novice'"
@@ -38,7 +38,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Novice'"
                             :itemCost="'mod:stone_slimeball'"
@@ -50,7 +50,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Novice'"
                             :itemCost="'slimeball'"
@@ -62,7 +62,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Novice'"
                             :itemCost="'minecraft:emerald'"
@@ -74,7 +74,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <td class="border border-gray-200" rowspan="3">Apprentice</td>
                         <VillagerTrade
                             :tier="'Apprentice'"
@@ -87,7 +87,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Apprentice'"
                             :itemCost="'minecraft:emerald'"
@@ -99,7 +99,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Apprentice'"
                             :itemCost="'minecraft:emerald'"
@@ -111,7 +111,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <td class="border border-gray-200" rowspan="3">Journeyman</td>
                         <VillagerTrade
                             :tier="'Journeyman'"
@@ -124,7 +124,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Journeyman'"
                             :itemCost="'mod:molten_stone_bucket'"
@@ -136,7 +136,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Journeyman'"
                             :itemCost="'minecraft:emerald'"
@@ -148,7 +148,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <td class="border border-gray-200" rowspan="3">Expert</td>
                         <VillagerTrade
                             :tier="'Expert'"
@@ -161,7 +161,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Expert'"
                             :itemCost="'minecraft:emerald'"
@@ -173,7 +173,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Expert'"
                             :itemCost="'minecraft:emerald'"
@@ -185,7 +185,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <td class="border border-gray-200" rowspan="5">Master</td>
                         <VillagerTrade
                             :tier="'Master'"
@@ -198,7 +198,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Master'"
                             :itemCost="'minecraft:emerald'"
@@ -210,7 +210,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Master'"
                             :itemCost="'minecraft:emerald'"
@@ -222,7 +222,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Master'"
                             :itemCost="'minecraft:emerald'"
@@ -234,7 +234,7 @@
                             :priceMultiplier="0.05"
                         />
                     </tr>
-                    <tr class="text-center bg-gray-500">
+                    <tr class="text-center bg-gray-50 dark:bg-gray-500">
                         <VillagerTrade
                             :tier="'Master'"
                             :itemCost="'mod:dirt_slime_spawn_egg'"

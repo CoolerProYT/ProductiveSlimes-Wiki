@@ -69,3 +69,8 @@
     white-space: nowrap; /* Prevent text wrapping */
     z-index: 10; /* Ensure it appears above other elements */
 }
+@layer base{
+    code{
+        @apply bg-gray-300 dark:bg-gray-800 px-2 rounded;
+    }
+}

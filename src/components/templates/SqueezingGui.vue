@@ -7,7 +7,7 @@
             <div class="p-2">
                 <div class="flex items-center justify-between">
                     <CraftingTableSlot
-                        :item="input_item"
+                        :item="'mod:' + input_item"
                         :output_count="input_count"
                     />
 
@@ -22,7 +22,7 @@
                         />
 
                         <CraftingTableSlot
-                            :item="'minecraft:bucket'"
+                            :item="'mod:' + output_item_2"
                             :output_count="1"
                         />
                     </div>
@@ -38,7 +38,7 @@ import ProgressArrow from "@/components/templates/ProgressArrow.vue";
 
 export default {
     components: {CraftingTableSlot, ProgressArrow},
-    props: ['input_item', 'output_item', 'input_count', 'inputColor', 'output_count']
+    props: ['input_item', 'output_item', 'input_count', 'output_count', 'output_item_2']
 }
 </script>
 

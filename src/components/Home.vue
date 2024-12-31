@@ -27,9 +27,25 @@
             <div class="mt-5">
                 <h1 class="text-xl md:text-3xl font-bold">Current Version Support</h1>
                 <ul class="list-disc ms-4">
-                    <li>1.21.1</li>
-                    <li>1.21.3</li>
-                    <li>1.21.4</li>
+                    <li class="font-bold text-xl">Update & Bug Fix</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li>1.21.1</li>
+                        <li>1.21.3</li>
+                        <li>1.21.4</li>
+                        <li>1.20.1</li>
+                    </ul>
+                    <li class="font-bold text-xl mt-2">Bug Fix Only</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li>1.19.2</li>
+                        <li>1.18.2</li>
+                        <li>1.17.1</li>
+                    </ul>
+                    <li class="font-bold text-xl mt-2">Possible Backporting</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li>1.20.6</li>
+                        <li>1.19.4</li>
+                        <li>1.16.5</li>
+                    </ul>
                 </ul>
             </div>
 
@@ -38,6 +54,34 @@
                 <ul class="list-disc ms-4">
                     <li class="font-bold text-xl">1.21.4</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1214">+</span></li>
+                        <ul id="v140-1214-log" style="display: none">
+                            <li>- Added Slime Item</li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 1</code></li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 2</code></li>
+                            <li>- Added <code>Slime Simulation Chamber</code> block entity</li>
+                            <li>- Added <code>Slimeball Collector</code> block entity</li>
+                            <li>- Added function to pickup slime as item by sneak+right-clicking</li>
+                            <li>- Added new command <code>/productiveslimes give &lt;slime_id&gt; [&lt;size&gt;]</code></li>
+                            <li>- Slime can drop resource in <code>Slime Simulation Chamber</code></li>
+                            <li>- Updated to NeoForge <code>21.4.41-beta</code></li>
+                        </ul>
+
+                        <li class="font-bold text-lg">v1.3.0 <span class="cursor-pointer select-none" id="v130-1214">+</span></li>
+                        <ul id="v130-1214-log" style="display: none">
+                            <li>- Added <code>Slimy</code> Wood Set (Log, Wood, Planks, Sapling, etc.)</li>
+                            <li>- Added new block entity <code>Slime Squeezer</code></li>
+                            <li>- Added new <code>Squeezing</code> recipe type</li>
+                            <li>- Added Non-Block Block of <code>Slimy</code> Wood Set, <code>Slimy Stone</code>, <code>Slimy Cobblestone</code> and <code>Slimy Cobbled Deepslate</code></li>
+                            <li>- Added <code>Slimeball Fragment</code> item</li>
+                            <li>- Added back <code>Molten Stone Lake</code> and <code>Molten Dirt Lake</code> generation in <code>Slimy Land</code> biome</li>
+                            <li>- Renamed <code>Slime Land</code> to <code>Slimy Land</code></li>
+                            <li>- Replaced <code>Slime Tree</code> in <code>Slime Land</code> to <code>Slimy Tree</code></li>
+                            <li>- Updated structure in <code>Slimy Village</code></li>
+                            <li>- Updated <code>Slimy Stone</code> texture</li>
+                            <li>- Updated <code>Slimy Deepslate</code> texture</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1214">+</span></li>
                         <ul id="v121-1214-log" style="display: none">
                             <li>- Added back Jade and Terrablender</li>
@@ -53,6 +97,33 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.21.3</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1213">+</span></li>
+                        <ul id="v140-1213-log" style="display: none">
+                            <li>- Added Slime Item</li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 1</code></li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 2</code></li>
+                            <li>- Added <code>Slime Simulation Chamber</code> block entity</li>
+                            <li>- Added <code>Slimeball Collector</code> block entity</li>
+                            <li>- Added function to pickup slime as item by sneak+right-clicking</li>
+                            <li>- Added new command <code>/productiveslimes give &lt;slime_id&gt; [&lt;size&gt;]</code></li>
+                            <li>- Slime can drop resource in <code>Slime Simulation Chamber</code></li>
+                        </ul>
+
+                        <li class="font-bold text-lg">v1.3.0 <span class="cursor-pointer select-none" id="v130-1213">+</span></li>
+                        <ul id="v130-1213-log" style="display: none">
+                            <li>- Added <code>Slimy</code> Wood Set (Log, Wood, Planks, Sapling, etc.)</li>
+                            <li>- Added new block entity <code>Slime Squeezer</code></li>
+                            <li>- Added new <code>Squeezing</code> recipe type</li>
+                            <li>- Added Non-Block Block of <code>Slimy</code> Wood Set, <code>Slimy Stone</code>, <code>Slimy Cobblestone</code> and <code>Slimy Cobbled Deepslate</code></li>
+                            <li>- Added <code>Slimeball Fragment</code> item</li>
+                            <li>- Added back <code>Molten Stone Lake</code> and <code>Molten Dirt Lake</code> generation in <code>Slimy Land</code> biome</li>
+                            <li>- Renamed <code>Slime Land</code> to <code>Slimy Land</code></li>
+                            <li>- Replaced <code>Slime Tree</code> in <code>Slime Land</code> to <code>Slimy Tree</code></li>
+                            <li>- Updated structure in <code>Slimy Village</code></li>
+                            <li>- Updated <code>Slimy Stone</code> texture</li>
+                            <li>- Updated <code>Slimy Deepslate</code> texture</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1213">+</span></li>
                         <ul id="v121-1213-log" style="display: none">
                             <li>- Added REI compat</li>
@@ -88,6 +159,33 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.21.1</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1211">+</span></li>
+                        <ul id="v140-1211-log" style="display: none">
+                            <li>- Added Slime Item</li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 1</code></li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 2</code></li>
+                            <li>- Added <code>Slime Simulation Chamber</code> block entity</li>
+                            <li>- Added <code>Slimeball Collector</code> block entity</li>
+                            <li>- Added function to pickup slime as item by sneak+right-clicking</li>
+                            <li>- Added new command <code>/productiveslimes give &lt;slime_id&gt; [&lt;size&gt;]</code></li>
+                            <li>- Slime can drop resource in <code>Slime Simulation Chamber</code></li>
+                        </ul>
+
+                        <li class="font-bold text-lg">v1.3.0 <span class="cursor-pointer select-none" id="v130-1211">+</span></li>
+                        <ul id="v130-1211-log" style="display: none">
+                            <li>- Added <code>Slimy</code> Wood Set (Log, Wood, Planks, Sapling, etc.)</li>
+                            <li>- Added new block entity <code>Slime Squeezer</code></li>
+                            <li>- Added new <code>Squeezing</code> recipe type</li>
+                            <li>- Added Non-Block Block of <code>Slimy</code> Wood Set, <code>Slimy Stone</code>, <code>Slimy Cobblestone</code> and <code>Slimy Cobbled Deepslate</code></li>
+                            <li>- Added <code>Slimeball Fragment</code> item</li>
+                            <li>- Added back <code>Molten Stone Lake</code> and <code>Molten Dirt Lake</code> generation in <code>Slimy Land</code> biome</li>
+                            <li>- Renamed <code>Slime Land</code> to <code>Slimy Land</code></li>
+                            <li>- Replaced <code>Slime Tree</code> in <code>Slime Land</code> to <code>Slimy Tree</code></li>
+                            <li>- Updated structure in <code>Slimy Village</code></li>
+                            <li>- Updated <code>Slimy Stone</code> texture</li>
+                            <li>- Updated <code>Slimy Deepslate</code> texture</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1211">+</span></li>
                         <ul id="v121-1211-log" style="display: none">
                             <li>- Added REI compat</li>
@@ -172,7 +270,73 @@
                         <ul id="v100-1211-log" style="display: none">
                             <li>- Initial Release</li>
                         </ul>
+                    </ul>
 
+                    <li class="font-bold text-xl mt-3 py-3 border-t">1.20.1</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1201">+</span></li>
+                        <ul id="v140-1201-log" style="display: none">
+                            <li>- Added Slime Item</li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 1</code></li>
+                            <li>- Added new item <code>Simulation Chamber Speed Upgrade 2</code></li>
+                            <li>- Added <code>Slime Simulation Chamber</code> block entity</li>
+                            <li>- Added <code>Slimeball Collector</code> block entity</li>
+                            <li>- Added function to pickup slime as item by sneak+right-clicking</li>
+                            <li>- Added new command <code>/productiveslimes give &lt;slime_id&gt; [&lt;size&gt;]</code></li>
+                            <li>- Slime can drop resource in <code>Slime Simulation Chamber</code></li>
+                        </ul>
+
+                        <li class="font-bold text-lg">v1.3.0 <span class="cursor-pointer select-none" id="v130-1201">+</span></li>
+                        <ul id="v130-1201-log" style="display: none">
+                            <li>- Added <code>Slimy</code> Wood Set (Log, Wood, Planks, Sapling, etc.)</li>
+                            <li>- Added new block entity <code>Slime Squeezer</code></li>
+                            <li>- Added new <code>Squeezing</code> recipe type</li>
+                            <li>- Added Non-Block Block of <code>Slimy</code> Wood Set, <code>Slimy Stone</code>, <code>Slimy Cobblestone</code> and <code>Slimy Cobbled Deepslate</code></li>
+                            <li>- Added <code>Slimeball Fragment</code> item</li>
+                            <li>- Added back <code>Molten Stone Lake</code> and <code>Molten Dirt Lake</code> generation in <code>Slimy Land</code> biome</li>
+                            <li>- Renamed <code>Slime Land</code> to <code>Slimy Land</code></li>
+                            <li>- Replaced <code>Slime Tree</code> in <code>Slime Land</code> to <code>Slimy Tree</code></li>
+                            <li>- Updated structure in <code>Slimy Village</code></li>
+                            <li>- Updated <code>Slimy Stone</code> texture</li>
+                            <li>- Updated <code>Slimy Deepslate</code> texture</li>
+                        </ul>
+
+                        <li class="font-bold text-lg">v1.2.2 <span class="cursor-pointer select-none" id="v122-1201">+</span></li>
+                        <ul id="v122-1201-log" style="display: none">
+                            <li>- Fixed <code>Fluid Tank</code> not saving fluid when broken.</li>
+                            <li>- Fixed <code>Fluid Tank</code> not rendering fluid.</li>
+                        </ul>
+
+                        <li class="font-bold text-lg">v1.2.1 <span class="cursor-pointer select-none" id="v121-1201">+</span></li>
+                        <ul id="v121-1201-log" style="display: none">
+                            <li>- Backport to 1.20.1 Forge</li>
+                        </ul>
+                    </ul>
+
+                    <li class="font-bold text-xl mt-3 py-3 border-t">1.19.2</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1192">+</span></li>
+                        <ul id="v140-1192-log" style="display: none">
+                            <li>- Backport to 1.19.2</li>
+                        </ul>
+                    </ul>
+
+                    <li class="font-bold text-xl mt-3 py-3 border-t">1.18.2</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1182">+</span></li>
+                        <ul id="v140-1182-log" style="display: none">
+                            <li>- Backport to 1.18.2</li>
+                            <li>- Removed Molten Dirt Lake and Molten Stone Lake in worldgen</li>
+                        </ul>
+                    </ul>
+
+                    <li class="font-bold text-xl mt-3 py-3 border-t">1.17.1</li>
+                    <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1171">+</span></li>
+                        <ul id="v140-1171-log" style="display: none">
+                            <li>- Backport to 1.18.2</li>
+                            <li>- Removed Molten Dirt Lake and Molten Stone Lake in worldgen</li>
+                        </ul>
                     </ul>
                 </ul>
             </div>

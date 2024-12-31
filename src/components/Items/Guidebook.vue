@@ -7,7 +7,8 @@
             <div>
                 <h1 class="text-2xl md:text-4xl font-bold">Guidebook</h1>
                 <p class="text-justify">
-                    Guidebook is a book that contains information about the mod.
+                    The Guidebook above v1.2.1 is outdated. Please refer to this wiki for the latest information.
+                    There is currently no plan to update the Guidebook.
                 </p>
             </div>
 

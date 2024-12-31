@@ -28,6 +28,15 @@
                     <NavLink path="/MeltingStation" text="Melting Station" />
                 </li>
                 <li>
+                    <NavLink path="/SlimeballCollector" text="Slimeball Collector" />
+                </li>
+                <li>
+                    <NavLink path="/SlimeSimulationChamber" text="Slime Simulation Chamber" />
+                </li>
+                <li>
+                    <NavLink path="/SlimeSqueezer" text="Slime Squeezer" />
+                </li>
+                <li>
                     <NavLink path="/SolidingStation" text="Soliding Station" />
                 </li>
             </ul>
@@ -37,8 +46,8 @@
             </li>
 
             <p id="entityToggle" class="cursor-pointer font-bold"
-               :class="{'text-blue-600': items.includes($route.path),'dark:text-gray-100 dark:hover:text-gray-400': !items.includes($route.path)}">Entities</p>
-            <ul id="entity" :style="{display: items.includes($route.path) ? 'block' : 'none'}" class="ms-2">
+               :class="{'text-blue-600': $route.path.endsWith('Slime'),'dark:text-gray-100 dark:hover:text-gray-400': !$route.path.endsWith('Slime')}">Entities</p>
+            <ul id="entity" :style="{display: $route.path.endsWith('Slime') ? 'block' : 'none'}" class="ms-2">
                 <li>
                     <NavLink path="/Slime" text="Slimes" />
                 </li>
@@ -56,6 +65,21 @@
                 <li>
                     <NavLink path="/Guidebook" text="Guidebook" />
                 </li>
+                <li>
+                    <NavLink path="/SimulationChamberUpgrade1" text="Speed Upgrade 1" />
+                </li>
+                <li>
+                    <NavLink path="/SimulationChamberUpgrade2" text="Speed Upgrade 2" />
+                </li>
+                <li>
+                    <NavLink path="/SlimeItem" text="Slime Item" />
+                </li>
+                <li>
+                    <NavLink path="/SlimeballFragment" text="Slimeball Fragment" />
+                </li>
+                <li>
+                    <NavLink path="/Squeezer" text="Squeezer" />
+                </li>
             </ul>
 
             <p id="recipeToggle" class="cursor-pointer font-bold"
@@ -72,6 +96,9 @@
                 </li>
                 <li>
                     <NavLink path="/SolidingRecipe" text="Soliding Recipe" />
+                </li>
+                <li>
+                    <NavLink path="/SqueezingRecipe" text="Squeezing Recipe" />
                 </li>
             </ul>
 
@@ -96,8 +123,8 @@ export default {
     },
     data() {
         return {
-            blocks: ['/MeltingStation', '/SolidingStation', '/EnergyGenerator', '/Cable', '/DnaExtractor', '/DnaSynthesizer'],
-            items: ['/EnergySlimeSpawnEgg', '/EnergyMultiplierUpgrade', '/Guidebook'],
+            blocks: ['/MeltingStation', '/SolidingStation', '/EnergyGenerator', '/Cable', '/DnaExtractor', '/DnaSynthesizer', '/SlimeSqueezer', '/FluidTank', '/SlimeSimulationChamber', '/SlimeballCollector'],
+            items: ['/EnergySlimeSpawnEgg', '/EnergyMultiplierUpgrade', '/Guidebook', '/SlimeballFragment', '/Squeezer', '/SlimeItem', '/SimulationChamberUpgrade1', '/SimulationChamberUpgrade2'],
             villagers: ['/Scientist'],
             size: 0
         };

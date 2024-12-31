@@ -22,6 +22,15 @@ import Slime from "@/components/Entities/Slime.vue";
 import Config from "@/components/Config.vue";
 import FluidTank from "@/components/Blocks/FluidTank.vue";
 import Scientist from "@/components/Villager/Scientist.vue";
+import SqueezingRecipe from "@/components/RecipeType/SqueezingRecipe.vue";
+import SlimeballFragment from "@/components/Items/SlimeballFragment.vue";
+import SlimeSqueezer from "@/components/Blocks/SlimeSqueezer.vue";
+import Squeezer from "@/components/Items/Squeezer.vue";
+import SlimeItem from "@/components/Items/SlimeItem.vue";
+import SimulationChamberUpgrade1 from "@/components/Items/SimulationChamberUpgrade1.vue";
+import SimulationChamberUpgrade2 from "@/components/Items/SimulationChamberUpgrade2.vue";
+import SlimeSimulationChamber from "@/components/Blocks/SlimeSimulationChamber.vue";
+import SlimeballCollector from "@/components/Blocks/SlimeballCollector.vue";
 
 const routes = [
     { path: '/Home', component: Home },
@@ -29,6 +38,7 @@ const routes = [
     { path: '/SolidingRecipe', component: SolidingRecipe },
     { path: '/DnaExtractingRecipe', component: DnaExtractingRecipe },
     { path: '/DnaSynthesizingRecipe', component: DnaSynthesizingRecipe },
+    { path: '/SqueezingRecipe', component: SqueezingRecipe },
     { path: '/MeltingStation', component: MeltingStation },
     { path: '/SolidingStation', component: SolidingStation },
     { path: '/EnergySlimeSpawnEgg', component: EnergySlimeSpawnEgg },
@@ -42,6 +52,14 @@ const routes = [
     { path: '/Config', component: Config },
     { path: '/FluidTank', component: FluidTank },
     { path: '/Scientist', component: Scientist },
+    { path: '/SlimeballFragment', component: SlimeballFragment },
+    { path: '/SlimeSqueezer', component: SlimeSqueezer },
+    { path: '/SlimeItem', component: SlimeItem },
+    { path: '/Squeezer', component: Squeezer },
+    { path: '/SimulationChamberUpgrade1', component: SimulationChamberUpgrade1 },
+    { path: '/SimulationChamberUpgrade2', component: SimulationChamberUpgrade2 },
+    { path: '/SlimeSimulationChamber', component: SlimeSimulationChamber },
+    { path: '/SlimeballCollector', component: SlimeballCollector },
     { path: '/:pathMatch(.*)*', redirect: '/Home' },
 ];
 

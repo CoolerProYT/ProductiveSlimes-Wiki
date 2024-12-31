@@ -70,7 +70,7 @@ export default {
                 if (width < 768)
                     this.progressWidth = this.progressWidth >= 70 ? 0 : this.progressWidth + 5;
                 else
-                    this.progressWidth = this.progressWidth >= 100 ? 0 : this.progressWidth + 5;
+                    this.progressWidth = this.progressWidth >= 135 ? 0 : this.progressWidth + 5;
             }, 500);
         }
     }
