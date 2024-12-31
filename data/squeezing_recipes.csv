@@ -1,0 +1,8 @@
+input_block,output_item_1,output_item_2
+slimy_dirt,dirt,slimeball_fragment
+slimy_grass_block,grass_block,slimeball_fragment
+slimy_stone,stone,slimeball_fragment
+slimy_deepslate,deepslate,slimeball_fragment
+slimy_cobblestone,cobblestone,slimeball_fragment
+slimy_cobbled_deepslate,cobbled_deepslate,slimeball_fragment
+slimy_log,oak_log,slimeball_fragment
