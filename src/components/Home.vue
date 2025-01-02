@@ -54,6 +54,13 @@
                 <ul class="list-disc ms-4">
                     <li class="font-bold text-xl">1.21.4</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.1 <span class="cursor-pointer select-none" id="v141-1214">+</span></li>
+                        <ul id="v141-1214-log" style="display: none">
+                            <li>- Fixed incorrect Silk Touch loot table for Slimy Grass Block, Slimy Stone and Slimy Deepslate</li>
+                            <li>- Fixed missing recipe to smelt cobbled to stone</li>
+                            <li>- Fixed incorrect Voxel Shape for Slimeball Collector</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1214">+</span></li>
                         <ul id="v140-1214-log" style="display: none">
                             <li>- Added Slime Item</li>
@@ -97,6 +104,14 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.21.3</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.1 <span class="cursor-pointer select-none" id="v141-1213">+</span></li>
+                        <ul id="v141-1213-log" style="display: none">
+                            <li>- Fixed incorrect Silk Touch loot table for Slimy Grass Block, Slimy Stone and Slimy Deepslate</li>
+                            <li>- Fixed missing recipe to smelt cobbled to stone</li>
+                            <li>- Fixed crash when Slime Item has no Data Component</li>
+                            <li>- Fixed incorrect Voxel Shape for Slimeball Collector</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1213">+</span></li>
                         <ul id="v140-1213-log" style="display: none">
                             <li>- Added Slime Item</li>
@@ -159,6 +174,14 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.21.1</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.1 <span class="cursor-pointer select-none" id="v141-1211">+</span></li>
+                        <ul id="v141-1211-log" style="display: none">
+                            <li>- Fixed incorrect Silk Touch loot table for Slimy Grass Block, Slimy Stone and Slimy Deepslate</li>
+                            <li>- Fixed missing recipe to smelt cobbled to stone</li>
+                            <li>- Fixed crash when Slime Item has no Data Component</li>
+                            <li>- Fixed incorrect Voxel Shape for Slimeball Collector</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1211">+</span></li>
                         <ul id="v140-1211-log" style="display: none">
                             <li>- Added Slime Item</li>
@@ -274,6 +297,15 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.20.1</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.1 <span class="cursor-pointer select-none" id="v141-1201">+</span></li>
+                        <ul id="v141-1201-log" style="display: none">
+                            <li>- Fixed incorrect Silk Touch loot table for Slimy Grass Block, Slimy Stone and Slimy Deepslate</li>
+                            <li>- Fixed missing recipe to smelt cobbled to stone</li>
+                            <li>- Fixed crash when Slime Item has no CompoundTag</li>
+                            <li>- Fixed incorrect Voxel Shape for Slimeball Collector</li>
+                            <li>- Fixed empty <code>Slime Item</code> name</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1201">+</span></li>
                         <ul id="v140-1201-log" style="display: none">
                             <li>- Added Slime Item</li>
@@ -315,6 +347,15 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.19.2</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.1 <span class="cursor-pointer select-none" id="v141-1192">+</span></li>
+                        <ul id="v141-1192-log" style="display: none">
+                            <li>- Fixed incorrect Silk Touch loot table for Slimy Grass Block, Slimy Stone and Slimy Deepslate</li>
+                            <li>- Fixed missing recipe to smelt cobbled to stone</li>
+                            <li>- Fixed crash when Slime Item has no CompoundTag</li>
+                            <li>- Fixed incorrect Voxel Shape for Slimeball Collector</li>
+                            <li>- Fixed empty <code>Slime Item</code> name</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1192">+</span></li>
                         <ul id="v140-1192-log" style="display: none">
                             <li>- Backport to 1.19.2</li>
@@ -323,6 +364,14 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.18.2</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.1 <span class="cursor-pointer select-none" id="v141-1182">+</span></li>
+                        <ul id="v141-1182-log" style="display: none">
+                            <li>- Fixed incorrect Silk Touch loot table for Slimy Grass Block, Slimy Stone and Slimy Deepslate</li>
+                            <li>- Fixed missing recipe to smelt cobbled to stone</li>
+                            <li>- Fixed crash when Slime Item has no CompoundTag</li>
+                            <li>- Fixed incorrect Voxel Shape for Slimeball Collector</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1182">+</span></li>
                         <ul id="v140-1182-log" style="display: none">
                             <li>- Backport to 1.18.2</li>
@@ -332,9 +381,17 @@
 
                     <li class="font-bold text-xl mt-3 py-3 border-t">1.17.1</li>
                     <ul class="ps-3" style="list-style-type: square">
+                        <li class="font-bold text-lg">v1.4.1 <span class="cursor-pointer select-none" id="v141-1171">+</span></li>
+                        <ul id="v141-1171-log" style="display: none">
+                            <li>- Fixed incorrect Silk Touch loot table for Slimy Grass Block, Slimy Stone and Slimy Deepslate</li>
+                            <li>- Fixed missing recipe to smelt cobbled to stone</li>
+                            <li>- Fixed crash when Slime Item has no CompoundTag</li>
+                            <li>- Fixed incorrect Voxel Shape for Slimeball Collector</li>
+                        </ul>
+
                         <li class="font-bold text-lg">v1.4.0 <span class="cursor-pointer select-none" id="v140-1171">+</span></li>
                         <ul id="v140-1171-log" style="display: none">
-                            <li>- Backport to 1.18.2</li>
+                            <li>- Backport to 1.17.1</li>
                             <li>- Removed Molten Dirt Lake and Molten Stone Lake in worldgen</li>
                         </ul>
                     </ul>
